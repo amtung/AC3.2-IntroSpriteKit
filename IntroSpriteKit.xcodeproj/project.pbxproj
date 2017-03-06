@@ -15,6 +15,8 @@
 		14F358BF1E6DB087000CA941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F358BD1E6DB087000CA941 /* Main.storyboard */; };
 		14F358C11E6DB087000CA941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F358C01E6DB087000CA941 /* Assets.xcassets */; };
 		14F358C41E6DB087000CA941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F358C21E6DB087000CA941 /* LaunchScreen.storyboard */; };
+		9C4226691E6DB7D800930F8E /* SunnyDayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4226681E6DB7D800930F8E /* SunnyDayScene.swift */; };
+		9C42266C1E6DBF4F00930F8E /* cat_twit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9C42266B1E6DBF4F00930F8E /* cat_twit.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		14F358C01E6DB087000CA941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14F358C31E6DB087000CA941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14F358C51E6DB087000CA941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4226681E6DB7D800930F8E /* SunnyDayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunnyDayScene.swift; sourceTree = "<group>"; };
+		9C42266B1E6DBF4F00930F8E /* cat_twit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat_twit.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 				14F358B71E6DB087000CA941 /* Actions.sks */,
 				14F358BD1E6DB087000CA941 /* Main.storyboard */,
 				14F358C01E6DB087000CA941 /* Assets.xcassets */,
+				9C42266B1E6DBF4F00930F8E /* cat_twit.wav */,
 				14F358C21E6DB087000CA941 /* LaunchScreen.storyboard */,
 				14F358C51E6DB087000CA941 /* Info.plist */,
 			);
@@ -74,11 +79,20 @@
 		14F358B21E6DB087000CA941 /* IntroSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
-				14F358B91E6DB087000CA941 /* GameScene.swift */,
 				14F358BB1E6DB087000CA941 /* GameViewController.swift */,
+				9C42266A1E6DB7E500930F8E /* Secenes */,
 				1440B55D1E6DB0EB007BECB9 /* Supporting Files */,
 			);
 			path = IntroSpriteKit;
+			sourceTree = "<group>";
+		};
+		9C42266A1E6DB7E500930F8E /* Secenes */ = {
+			isa = PBXGroup;
+			children = (
+				14F358B91E6DB087000CA941 /* GameScene.swift */,
+				9C4226681E6DB7D800930F8E /* SunnyDayScene.swift */,
+			);
+			name = Secenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +159,7 @@
 				14F358C11E6DB087000CA941 /* Assets.xcassets in Resources */,
 				14F358C41E6DB087000CA941 /* LaunchScreen.storyboard in Resources */,
 				14F358B81E6DB087000CA941 /* Actions.sks in Resources */,
+				9C42266C1E6DBF4F00930F8E /* cat_twit.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +173,7 @@
 				14F358BA1E6DB087000CA941 /* GameScene.swift in Sources */,
 				14F358BC1E6DB087000CA941 /* GameViewController.swift in Sources */,
 				14F358B41E6DB087000CA941 /* AppDelegate.swift in Sources */,
+				9C4226691E6DB7D800930F8E /* SunnyDayScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
